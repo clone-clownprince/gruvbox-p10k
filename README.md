@@ -3,7 +3,7 @@
 A **Powerlevel10k** theme with elements of the **Gruvbox** color palette for a clean and stylish terminal experience.
 
 ## 🎨 Preview
-![Screenshot](screenshot.png)
+![Screenshot](preview.png)
 
 ## 🚀 Installation
 
