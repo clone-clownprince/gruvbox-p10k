@@ -27,10 +27,25 @@ cp gruvbox-p10k/.p10k.zsh ~/.p10k.zsh
 source ~/.zshrc
 ```
 
+## 🎨 Gruvbox Zsh Syntax Highlighting
+This repository also includes a custom **zsh-syntax-highlighting** theme that matches the Gruvbox color palette.
+
+### 🔧 Installation
+
+1. **Ensure `zsh-syntax-highlighting` is installed.For more informations [here](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)**
+
+2. **Copy/paste the contents of gruvbox-zsh.txt in your ~/.zshrc**
+
+3. **Apply the changes**:
+   ```sh
+   source ~/.zshrc
+   ```
+
 ## 📜 License
 This project is licensed under the MIT License.
 
 ## ✨ Credits
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Gruvbox](https://github.com/morhetz/gruvbox)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
