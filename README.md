@@ -45,4 +45,5 @@ This project is licensed under the MIT License.
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Gruvbox](https://github.com/morhetz/gruvbox)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [gruvbox-factory](https://github.com/paulopacitti/gruvbox-factory)
 
