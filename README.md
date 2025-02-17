@@ -32,7 +32,7 @@ This repository also includes a custom **zsh-syntax-highlighting** theme that ma
 
 ### 🔧 Installation
 
-1. **Ensure `zsh-syntax-highlighting` is installed.For more informations [here](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)**
+1. **Ensure `zsh-syntax-highlighting` is installed.For more informations [here](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md).**
 
 2. **Copy/paste the contents of [gruvbox-zsh.txt](https://github.com/clone-clownprince/gruvbox-p10k/blob/master/gruvbox-zsh.txt) in your ~/.zshrc**
 
