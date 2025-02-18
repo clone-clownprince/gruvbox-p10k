@@ -184,10 +184,10 @@
 
   #################################[ os_icon: os identifier ]##################################
   # OS identifier color.
-  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND=223
-  typeset -g POWERLEVEL9K_OS_ICON_BACKGROUND=237
+  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND="#a89984"
+  typeset -g POWERLEVEL9K_OS_ICON_BACKGROUND="#282828"
   # Custom icon.
-  # typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='󰣇'
+   typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='󰣇'
 
   ################################[ prompt_char: prompt symbol ]################################
   # Transparent background.
@@ -214,7 +214,7 @@
 
   ##################################[ dir: current directory ]##################################
   # Current directory background color.
-  typeset -g POWERLEVEL9K_DIR_BACKGROUND=142
+  typeset -g POWERLEVEL9K_DIR_BACKGROUND="#b8bb26"
   # Default current directory foreground color.
   typeset -g POWERLEVEL9K_DIR_FOREGROUND=235
   # If directory is too long, shorten some of its segments to the shortest possible unique
@@ -353,10 +353,10 @@
 
   #####################################[ vcs: git status ]######################################
   # Version control system colors.
-  typeset -g POWERLEVEL9K_VCS_CLEAN_BACKGROUND=172
-  typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=166
-  typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND=172
-  typeset -g POWERLEVEL9K_VCS_CONFLICTED_BACKGROUND=167
+  typeset -g POWERLEVEL9K_VCS_CLEAN_BACKGROUND="#b57614"
+  typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="#fe8019"
+  typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND="#b57614"
+  typeset -g POWERLEVEL9K_VCS_CONFLICTED_BACKGROUND="#fb4934"
   typeset -g POWERLEVEL9K_VCS_LOADING_BACKGROUND=8
 
   # Branch icon. Set this parameter to '\uF126 ' for the popular Powerline branch icon.
@@ -505,8 +505,8 @@
   # it will signify success by turning green.
   typeset -g POWERLEVEL9K_STATUS_OK=true
   typeset -g POWERLEVEL9K_STATUS_OK_VISUAL_IDENTIFIER_EXPANSION='✔'
-  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND=246
-  typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND=235
+  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND="#458588"
+  typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND="#282828"
 
   # Status when some part of a pipe command fails but the overall exit status is zero. It may look
   # like this: 1|0.
@@ -519,8 +519,8 @@
   # it will signify error by turning red.
   typeset -g POWERLEVEL9K_STATUS_ERROR=true
   typeset -g POWERLEVEL9K_STATUS_ERROR_VISUAL_IDENTIFIER_EXPANSION='✘'
-  typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND=214
-  typeset -g POWERLEVEL9K_STATUS_ERROR_BACKGROUND=124
+  typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND="#fabd2f"
+  typeset -g POWERLEVEL9K_STATUS_ERROR_BACKGROUND="#9d0006"
 
   # Status when the last command was terminated by a signal.
   typeset -g POWERLEVEL9K_STATUS_ERROR_SIGNAL=true
@@ -932,8 +932,8 @@
 
   ###[ virtualenv: python virtual environment (https://docs.python.org/3/library/venv.html) ]###
   # Python virtual environment color.
-  typeset -g POWERLEVEL9K_VIRTUALENV_FOREGROUND=172
-  typeset -g POWERLEVEL9K_VIRTUALENV_BACKGROUND=124
+  typeset -g POWERLEVEL9K_VIRTUALENV_FOREGROUND="#d79921"
+  typeset -g POWERLEVEL9K_VIRTUALENV_BACKGROUND="#cc241d"
   # Don't show Python version next to the virtual environment name.
   typeset -g POWERLEVEL9K_VIRTUALENV_SHOW_PYTHON_VERSION=false
   # If set to "false", won't show virtualenv if pyenv is already shown.
@@ -980,8 +980,8 @@
 
   ################[ pyenv: python environment (https://github.com/pyenv/pyenv) ]################
   # Pyenv color.
-  typeset -g POWERLEVEL9K_PYENV_FOREGROUND=250
-  typeset -g POWERLEVEL9K_PYENV_BACKGROUND=96
+  typeset -g POWERLEVEL9K_PYENV_FOREGROUND="#d79921"
+  typeset -g POWERLEVEL9K_PYENV_BACKGROUND="#cc241d"
   # Hide python version if it doesn't come from one of these sources.
   typeset -g POWERLEVEL9K_PYENV_SOURCES=(shell local global)
   # If set to false, hide python version if it's the same as global:
@@ -1328,8 +1328,8 @@
       # '*prod*'  PROD    # These values are examples that are unlikely
       # '*test*'  TEST    # to match your needs. Customize them as needed.
       '*'       DEFAULT)
-  typeset -g POWERLEVEL9K_KUBECONTEXT_DEFAULT_FOREGROUND=250
-  typeset -g POWERLEVEL9K_KUBECONTEXT_DEFAULT_BACKGROUND=66
+  typeset -g POWERLEVEL9K_KUBECONTEXT_DEFAULT_FOREGROUND="#a89994"
+  typeset -g POWERLEVEL9K_KUBECONTEXT_DEFAULT_BACKGROUND="#076678"
   # typeset -g POWERLEVEL9K_KUBECONTEXT_DEFAULT_VISUAL_IDENTIFIER_EXPANSION='⭐'
 
   # Use POWERLEVEL9K_KUBECONTEXT_CONTENT_EXPANSION to specify the content displayed by kubecontext
@@ -1413,7 +1413,7 @@
       # '*prod*'  PROD    # These values are examples that are unlikely
       # '*test*'  TEST    # to match your needs. Customize them as needed.
       '*'       DEFAULT)
-  typeset -g POWERLEVEL9K_AWS_DEFAULT_FOREGROUND=166
+  typeset -g POWERLEVEL9K_AWS_DEFAULT_FOREGROUND="#d65d0e"
   typeset -g POWERLEVEL9K_AWS_DEFAULT_BACKGROUND=235
   # typeset -g POWERLEVEL9K_AWS_DEFAULT_VISUAL_IDENTIFIER_EXPANSION='⭐'
 
@@ -1607,7 +1607,7 @@
   typeset -g POWERLEVEL9K_BATTERY_LOW_THRESHOLD=20
   typeset -g POWERLEVEL9K_BATTERY_LOW_FOREGROUND=1
   # Show battery in green when it's charging or fully charged.
-  typeset -g POWERLEVEL9K_BATTERY_{CHARGING,CHARGED}_FOREGROUND=142
+  typeset -g POWERLEVEL9K_BATTERY_{CHARGING,CHARGED}_FOREGROUND="#b8bb26"
   # Show battery in yellow when it's discharging.
   typeset -g POWERLEVEL9K_BATTERY_DISCONNECTED_FOREGROUND=214
   # Battery pictograms going from low to high level of charge.
@@ -1616,7 +1616,7 @@
   typeset -g POWERLEVEL9K_BATTERY_STAGES='\uf244\uf243\uf242\uf241\uf240'
   # Don't show the remaining time to charge/discharge.
   typeset -g POWERLEVEL9K_BATTERY_VERBOSE=false
-  typeset -g POWERLEVEL9K_BATTERY_BACKGROUND=235
+  typeset -g POWERLEVEL9K_BATTERY_BACKGROUND="#282828"
 
 
   #####################################[ wifi: wifi speed ]#####################################
@@ -1648,8 +1648,8 @@
 
   ####################################[ time: current time ]####################################
   # Current time color.
-  typeset -g POWERLEVEL9K_TIME_FOREGROUND=250
-  typeset -g POWERLEVEL9K_TIME_BACKGROUND=124
+  typeset -g POWERLEVEL9K_TIME_FOREGROUND="#282828"
+  typeset -g POWERLEVEL9K_TIME_BACKGROUND="#fb4924"
   # Format for the current time: 09:51:02. See `man 3 strftime`.
   typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%H:%M}'
   # If set to true, time will update when you hit enter. This way prompts for the past
