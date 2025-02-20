@@ -540,8 +540,8 @@
 
   ###################[ command_execution_time: duration of the last command ]###################
   # Execution time color.
-  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND="#b16286"
-  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND="#3c3836"
+  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND="#32302f"
+  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND="#bdae93"
   # Show duration of the last command if takes at least this many seconds.
   typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=1
   # Show this many fractional digits. Zero means round to seconds.
@@ -555,8 +555,8 @@
 
   #######################[ background_jobs: presence of background jobs ]#######################
   # Background jobs color.
-  typeset -g POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND=6
-  typeset -g POWERLEVEL9K_BACKGROUND_JOBS_BACKGROUND=0
+  typeset -g POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND="#d3869b"
+  typeset -g POWERLEVEL9K_BACKGROUND_JOBS_BACKGROUND="#3c3836"
   # Don't show the number of background jobs.
   typeset -g POWERLEVEL9K_BACKGROUND_JOBS_VERBOSE=false
   # Custom icon.
@@ -1329,7 +1329,7 @@
       # '*prod*'  PROD    # These values are examples that are unlikely
       # '*test*'  TEST    # to match your needs. Customize them as needed.
       '*'       DEFAULT)
-  typeset -g POWERLEVEL9K_KUBECONTEXT_DEFAULT_FOREGROUND="#a89994"
+  typeset -g POWERLEVEL9K_KUBECONTEXT_DEFAULT_FOREGROUND="#ebdbb2"
   typeset -g POWERLEVEL9K_KUBECONTEXT_DEFAULT_BACKGROUND="#076678"
   # typeset -g POWERLEVEL9K_KUBECONTEXT_DEFAULT_VISUAL_IDENTIFIER_EXPANSION='⭐'
 
@@ -1414,8 +1414,8 @@
       # '*prod*'  PROD    # These values are examples that are unlikely
       # '*test*'  TEST    # to match your needs. Customize them as needed.
       '*'       DEFAULT)
-  typeset -g POWERLEVEL9K_AWS_DEFAULT_FOREGROUND="#fabd2f"
-  typeset -g POWERLEVEL9K_AWS_DEFAULT_BACKGROUND="#3c3836"
+  typeset -g POWERLEVEL9K_AWS_DEFAULT_FOREGROUND="#fe8019"
+  typeset -g POWERLEVEL9K_AWS_DEFAULT_BACKGROUND="#282828"
   # typeset -g POWERLEVEL9K_AWS_DEFAULT_VISUAL_IDENTIFIER_EXPANSION='⭐'
 
   # AWS segment format. The following parameters are available within the expansion.
@@ -1649,7 +1649,7 @@
 
   ####################################[ time: current time ]####################################
   # Current time color.
-  typeset -g POWERLEVEL9K_TIME_FOREGROUND="#282828"
+  typeset -g POWERLEVEL9K_TIME_FOREGROUND="#3c3836"
   typeset -g POWERLEVEL9K_TIME_BACKGROUND="#83a598"
   # Format for the current time: 09:51:02. See `man 3 strftime`.
   typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%H:%M}'
