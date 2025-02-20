@@ -138,9 +138,9 @@
   # Connect left prompt lines with these symbols. You'll probably want to use the same color
   # as POWERLEVEL9K_MULTILINE_FIRST_PROMPT_GAP_FOREGROUND below.
   #typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%244F╭─'
-  typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%208F╭─'
-  typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX='%208F├─'
-  typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='%208F╰─'
+  typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%246F╭─'
+  typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX='%246F├─'
+  typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='%246F╰─'
   # Connect right prompt lines with these symbols.
   typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_SUFFIX=
   typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_SUFFIX=
@@ -184,10 +184,11 @@
 
   #################################[ os_icon: os identifier ]##################################
   # OS identifier color.
-  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND="#a89984"
-  typeset -g POWERLEVEL9K_OS_ICON_BACKGROUND="#282828"
+  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND="#fabd2f"
+  typeset -g POWERLEVEL9K_OS_ICON_BACKGROUND="#3c3836"
   # Custom icon.
-   typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='󰣇'
+   #typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='󰣇'
+   typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION=''
 
   ################################[ prompt_char: prompt symbol ]################################
   # Transparent background.
@@ -214,7 +215,7 @@
 
   ##################################[ dir: current directory ]##################################
   # Current directory background color.
-  typeset -g POWERLEVEL9K_DIR_BACKGROUND="#b8bb26"
+  typeset -g POWERLEVEL9K_DIR_BACKGROUND="#689d6a"
   # Default current directory foreground color.
   typeset -g POWERLEVEL9K_DIR_FOREGROUND=235
   # If directory is too long, shorten some of its segments to the shortest possible unique
@@ -353,9 +354,9 @@
 
   #####################################[ vcs: git status ]######################################
   # Version control system colors.
-  typeset -g POWERLEVEL9K_VCS_CLEAN_BACKGROUND="#b57614"
-  typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="#fe8019"
-  typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND="#b57614"
+  typeset -g POWERLEVEL9K_VCS_CLEAN_BACKGROUND="#d79921"
+  typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="#b57614"
+  typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND="#d79921"
   typeset -g POWERLEVEL9K_VCS_CONFLICTED_BACKGROUND="#fb4934"
   typeset -g POWERLEVEL9K_VCS_LOADING_BACKGROUND=8
 
@@ -505,8 +506,8 @@
   # it will signify success by turning green.
   typeset -g POWERLEVEL9K_STATUS_OK=true
   typeset -g POWERLEVEL9K_STATUS_OK_VISUAL_IDENTIFIER_EXPANSION='✔'
-  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND="#458588"
-  typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND="#282828"
+  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND="#98971a"
+  typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND="#3c3836"
 
   # Status when some part of a pipe command fails but the overall exit status is zero. It may look
   # like this: 1|0.
@@ -1413,8 +1414,8 @@
       # '*prod*'  PROD    # These values are examples that are unlikely
       # '*test*'  TEST    # to match your needs. Customize them as needed.
       '*'       DEFAULT)
-  typeset -g POWERLEVEL9K_AWS_DEFAULT_FOREGROUND="#d65d0e"
-  typeset -g POWERLEVEL9K_AWS_DEFAULT_BACKGROUND=235
+  typeset -g POWERLEVEL9K_AWS_DEFAULT_FOREGROUND="#fabd2f"
+  typeset -g POWERLEVEL9K_AWS_DEFAULT_BACKGROUND="#3c3836"
   # typeset -g POWERLEVEL9K_AWS_DEFAULT_VISUAL_IDENTIFIER_EXPANSION='⭐'
 
   # AWS segment format. The following parameters are available within the expansion.
@@ -1616,7 +1617,7 @@
   typeset -g POWERLEVEL9K_BATTERY_STAGES='\uf244\uf243\uf242\uf241\uf240'
   # Don't show the remaining time to charge/discharge.
   typeset -g POWERLEVEL9K_BATTERY_VERBOSE=false
-  typeset -g POWERLEVEL9K_BATTERY_BACKGROUND="#282828"
+  typeset -g POWERLEVEL9K_BATTERY_BACKGROUND="#3c3836"
 
 
   #####################################[ wifi: wifi speed ]#####################################
@@ -1649,7 +1650,7 @@
   ####################################[ time: current time ]####################################
   # Current time color.
   typeset -g POWERLEVEL9K_TIME_FOREGROUND="#282828"
-  typeset -g POWERLEVEL9K_TIME_BACKGROUND="#fb4924"
+  typeset -g POWERLEVEL9K_TIME_BACKGROUND="#83a598"
   # Format for the current time: 09:51:02. See `man 3 strftime`.
   typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%H:%M}'
   # If set to true, time will update when you hit enter. This way prompts for the past
